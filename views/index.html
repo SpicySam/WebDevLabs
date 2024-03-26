@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="..\static\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="..\static\script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sam Curry">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Sam Curry's professional website">
+    <title>Sam Curry</title>
+</head>
+<body onload=" addYear()">
+    <header>
+        <h1 id="webname">Sam Curry</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting"></h2>
+        <img src="..\static\IMG_1452.JPG" alt="Sam Curry profile image" width="350px" class="classA">
+        <div class="classA">
+            <span id="shortIntro">Ambitious and resourceful college freshman at Carnegie Mellon University.
+                Passionate about intelligence and national defense with a proficient
+                programming, computer science, and technical skillset.</span>
+            <span id="readMore"> read more ...</span>
+            <span id="longIntro">Strong cooperative, interpersonal, and leadership ability, with a commitment to producing
+                purposeful, accountable, high-quality results in a wide array of situations.
+                Experienced collaborator and professional committed to ensuring our nation's
+                continued security through a career of public service for the federal
+                government. Continuing service to U.S. defense by returning to the NGA in the
+                summer of 2024.</span>
+            <span id="readLess"> read less</span>
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Sam Curry &copy</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="..\static\style.css">
+    <script defer src="..\static\script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sam Curry">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Sam Curry's professional website">
+    <title>Sam Curry</title>
+</head>
+<body>
+    <header>
+        <h1 id="webname">Sam Curry</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html" class="active">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>Contact Me</h2>
+        <form action="">
+            <label for="name">Your Name (required):</label>
+            <input type="text" id="name" required/>
+            <br>
+            <label for="email">Your Email (required):</label>
+            <input type="email" id="email" required/>
+            <br>
+            <label for="comment">Your Comment or Question</label>
+            <textarea id="comment" cols="30" rows="10" required></textarea>
+            <br>
+            <input type="submit" value="SEND" onclick="validate()"/>
+        </form>
+        <p id="ValidateMsg"></p>
+        <table>
+            <tr><th>Contact Method</th><th>Description</th></tr>
+            <tr><td>Email</td><td>currysa24@gmail.com</td></tr>
+            <tr><td>Phone</td><td>(703)907-9399</td></tr>
+            <tr><td>LinkedIn</td><td>http://www.linkedin.com/in/samuel-curry</td></tr>
+        </table>
+    </div>
+    <footer>
+        <p>Sam Curry &copy; 2024</p>
+    </footer>
+</body>
+</html>
